@@ -10,7 +10,7 @@ xlabel ("\omega (LJ units)");
 ylabel ("PS (LJ units)");
 legend ("\Phi", "\Phi'");
 
-print -deps -color sed_check.eps
+print -dpdf -color sed_check.pdf
 
 %sum(...
 %Phi(1:2048,1),sum(Phi(1:2048,:),2) - 
