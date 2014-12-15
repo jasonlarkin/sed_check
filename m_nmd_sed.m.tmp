@@ -1,4 +1,4 @@
-NMD=load('./nmd.mat');
+load('./nmd.mat');
 
 [tmp,str.main]=system('pwd');
 
